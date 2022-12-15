@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:tugasbesar2/injector.dart';
 import 'package:tugasbesar2/movie/pages/movie_page.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_discover_provider.dart';
-import 'package:tugasbesar2/movie/providers/movie_get_now_playing_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_top_rated_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_top_indo_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_genre_crime_provider.dart';
@@ -33,9 +32,6 @@ class App extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => sl<MovieGetTopRatedProvider>(),
-        ),
-        ChangeNotifierProvider(
-          create: (_) => sl<MovieGetNowPlayingProvider>(),
         ),
         ChangeNotifierProvider(
           create: (_) => sl<MovieSearchProvider>(),

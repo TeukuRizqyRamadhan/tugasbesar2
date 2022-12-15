@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tugasbesar2/movie/components/movie_discover_component.dart';
-import 'package:tugasbesar2/movie/components/movie_now_playing_component.dart';
 import 'package:tugasbesar2/movie/components/movie_top_rated_component.dart';
 import 'package:tugasbesar2/movie/components/movie_top_indo_component.dart';
 import 'package:tugasbesar2/movie/components/movie_genre_crime_component.dart';

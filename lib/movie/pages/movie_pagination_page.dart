@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
 import 'package:tugasbesar2/movie/models/movie_model.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_discover_provider.dart';
-import 'package:tugasbesar2/movie/providers/movie_get_now_playing_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_top_rated_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_top_indo_provider.dart';
 import 'package:tugasbesar2/movie/providers/movie_get_genre_crime_provider.dart';
@@ -11,6 +10,7 @@ import 'package:tugasbesar2/movie/providers/movie_get_genre_horror_provider.dart
 import 'package:tugasbesar2/movie/providers/movie_get_genre_comedy_provider.dart';
 import 'package:tugasbesar2/widget/item_movie_widget.dart';
 
+import '../providers/movie_get_now_playing_provider.dart';
 import 'movie_detail_page.dart';
 
 enum TypeMovie { discover, nowPlaying, topRated, topIndo, genreCrime, genreHorror, genreComedy}
